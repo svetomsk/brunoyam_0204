@@ -1,40 +1,35 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter amount of elements: ");
+        int n = sc.nextInt();
+        int [] mas = new int[n];
 
-        // this variable has type integer
-        int nameOfVariable = 123;
+        for(int i = 0; i < n; i++) {
+            int current = sc.nextInt();
+            mas[i] = current;
+        }
 
-        int number = 123;
-        {
-            {
-                int b = 123;
+        for(int i = 0; i < n; i++) {
+            System.out.println(mas[i]);
+        }
+
+        for(int i = n - 1; i >= 0; i--) {
+            System.out.println(mas[i]);
+        }
+
+        int max = mas[0];
+        int min = mas[0];
+        for(int i = 0; i < n; i++) {
+            if(max < mas[i]) {
+                max = mas[i];
             }
-            {
-                int b = 123;
+            if(min > mas[i]) {
+                min = mas[i];
             }
         }
-        long bigNumber = 213132;
-        number = (int) bigNumber;
-        bigNumber = number;
-        /*
-        Very
-        long
-        comment
-         */
-        System.out.println(number);
-        number = 1234;
-        System.out.println(number);
-
-        double range = 123.2313123;
-        System.out.println(range);
-        range = 1223213.2323;
-        System.out.println(range);
-
-        char symbol = 'b';
-
-
-        boolean flag = true;
-        boolean anotherFlag = false;
+        System.out.println(max + " " + min);
     }
 }
