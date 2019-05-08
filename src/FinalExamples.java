@@ -5,7 +5,7 @@ public class FinalExamples {
 
 //        final Robott robott = new Robott(14, 23123);
 //        robott.trace = '$';
-        int[] a;
+        int [] a;
         Field field = new Field(10, 12, new Robott(4, 5));
         field.display();
 

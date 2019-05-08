@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 public class CollectionsExample {
     public static void main(String[] args) {
@@ -46,8 +43,8 @@ public class CollectionsExample {
 
     public static boolean contains(int element, List<Integer> data) {
         boolean result = false;
-        for (Integer current : data) {
-            if (current == element) {
+        for(Integer current : data) {
+            if(current == element) {
                 result = true;
             }
         }
@@ -55,8 +52,8 @@ public class CollectionsExample {
     }
 
     static boolean contains1(int element, List<Integer> data) {
-        for (Integer current : data) {
-            if (current == element) {
+        for(Integer current : data) {
+            if(current == element) {
                 return true;
             }
         }
@@ -65,8 +62,8 @@ public class CollectionsExample {
 
     public static Integer maximum(List<Integer> data) {
         int maximum = data.get(0);
-        for (Integer current : data) {
-            if (current > maximum) {
+        for(Integer current : data) {
+            if(current > maximum) {
                 maximum = current;
             }
         }

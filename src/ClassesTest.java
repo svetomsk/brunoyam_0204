@@ -3,7 +3,7 @@ public class ClassesTest {
     String name;
 
     public static void main(String[] args) {
-        int[] a = new int[10];
+        int [] a = new int[10];
         Car car = new Car();
         System.out.println(car.engineType);
         System.out.println(car.maxSpeed);

@@ -5,7 +5,7 @@ public class CustomPoint1 {
     private double color;
 
     public CustomPoint1(double x, double y, double z, double color) {
-        if (z == 0) {
+        if(z == 0) {
             throw new IllegalArgumentException("z must not be zero");
         }
         this.x = x;
@@ -20,7 +20,7 @@ public class CustomPoint1 {
     }
 
     public void setZ(double z) {
-        if (z == 0) {
+        if(z == 0) {
             throw new IllegalArgumentException("z must not be zero");
         }
         this.z = z;
