@@ -1,4 +1,4 @@
-public class MethodsExample {
+public class MethodsExample<T extends Object> {
     public static void main(String[] args) {
         int a = 12;
         int b = 13;
@@ -6,19 +6,33 @@ public class MethodsExample {
                 sum(12312, 12312);
 
         int k = f(0) + f(1) + f(2);
-        System.out.println(result);
+//        System.out.println(result);
 
-        int[] arr = {1, 2, 3};
-        System.out.println(appendWorld(arr)[0]);
-        System.out.println(arr[0]);
+        int[] arr = {1, 2, 3, 4};
+        reverseArrayNonTrivial(arr);
+        for (int i : arr) {
+            System.out.println(i);
+        }
 
-        System.out.println(k);
-        System.out.println(f(k));
-        System.out.println(k);
+        reverseArrayOrdinary(arr);
+        for (int i : arr) {
+            System.out.println(i);
+        }
 
-        int c = 213;
-        int d = 32313;
-        System.out.println(sub(c, d));
+        int first = 0;
+        int second = 12;
+        System.out.println(first + " " + second);
+
+//        System.out.println(appendWorld(arr)[0]);
+//        System.out.println(arr[0]);
+//
+//        System.out.println(k);
+//        System.out.println(f(k));
+//        System.out.println(k);
+//
+//        int c = 213;
+//        int d = 32313;
+//        System.out.println(sub(c, d));
     }
 
     public static int sum(int first, int b) {
@@ -58,6 +72,25 @@ public class MethodsExample {
         }
         // не забываем про возвращаемое значение
         return sum;
+    }
+
+    public static void reverseArrayNonTrivial(int[] a) {
+        int i = 0, j = a.length - 1;
+        while (i < j) {
+            int tmp = a[i];
+            a[i] = a[j];
+            a[j] = tmp;
+            i++;
+            j--;
+        }
+    }
+
+    public static void reverseArrayOrdinary(int[] a) {
+        for (int i = 0; i < a.length / 2; i++) {
+            int tmp = a[i];
+            a[i] = a[a.length - 1 - i];
+            a[a.length - 1 - i] = tmp;
+        }
     }
 
     public static int[] appendWorld(int[] s) {

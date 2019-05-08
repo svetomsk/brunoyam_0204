@@ -1,3 +1,5 @@
+import test.Hello;
+
 import java.util.Scanner;
 
 public class Main {
@@ -31,5 +33,13 @@ public class Main {
             }
         }
         System.out.println(max + " " + min);
+
+
+        MethodsExample example = new MethodsExample();
+        System.out.println(MethodsExample.sum(1, 2));
+
+        int first = 123;
+        int second = 321;
+        Hello hello = new Hello();
     }
 }
