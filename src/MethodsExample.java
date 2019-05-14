@@ -27,7 +27,7 @@ public class MethodsExample<T extends Object> {
 //        System.out.println(arr[0]);
 //
 //        System.out.println(k);
-//        System.out.println(f(k));
+//        System.out.printlndsfsdfsdf(f(k));
 //        System.out.println(k);
 //
 //        int c = 213;
