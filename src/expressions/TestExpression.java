@@ -1,8 +1,5 @@
 package expressions;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class TestExpression {
     public static void main(String[] args) {
         Const two = new Const(2);
@@ -16,9 +13,7 @@ public class TestExpression {
         PlusOperation plus = new PlusOperation(multiply, sub);
 
         // x -> 1; y -> 2; z -> 3
-        Map<String, Integer> values = new HashMap<>();
-        values.put("x", 1);
-        System.out.println(plus.calculate(values));
+        System.out.println(plus.calculate());
 
 
     }
