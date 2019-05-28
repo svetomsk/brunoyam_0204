@@ -132,11 +132,32 @@ public class ConcurrencyExample {
     }
 }
 
+enum G {
+    A(1.1),
+    B(1.4);
+
+    private double value;
+
+    G(double value) {
+        this.value = value;
+    }
+
+    public double toDouble() {
+        return value;
+    }
+}
+
+class Constants {
+    public static final double VALUE_A = 1.1;
+    public static final double VALUE_B = 1.4;
+}
+
 class MyThread extends Thread {
     private volatile boolean isStarted = false;
 
     public MyThread() {
-
+        double result = G.A.toDouble() + G.B.toDouble();
+        result = Constants.VALUE_A + Constants.VALUE_B;
     }
 
     public void updateData() {
