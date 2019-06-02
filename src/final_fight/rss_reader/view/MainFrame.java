@@ -12,6 +12,18 @@ public class MainFrame extends JFrame {
     private JList newsList;
     private JButton updateNewsButton;
 
+    public MainFrame
+
+    {
+    }
+
+    {
+        this.add(rootPanel);
+        this.setTitle("RSS Reader");
+        this.setBounds(150, 100, 400, 600);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+
     void updateNews(List<NewsItem> news) {
 
     }
