@@ -8,6 +8,9 @@ import java.util.List;
 
 public class MainFrame extends JFrame {
     private IController cntl;
+    private JPanel rootPanel;
+    private JList newsList;
+    private JButton updateNewsButton;
 
     void updateNews(List<NewsItem> news) {
 
