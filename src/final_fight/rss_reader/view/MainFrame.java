@@ -4,6 +4,7 @@ import final_fight.rss_reader.controller.IController;
 import final_fight.rss_reader.xml_parser.NewsItem;
 
 import javax.swing.*;
+import java.awt.*;
 import java.util.List;
 
 public class MainFrame extends JFrame {
@@ -11,16 +12,18 @@ public class MainFrame extends JFrame {
     private JPanel rootPanel;
     private JList newsList;
     private JButton updateNewsButton;
+    private JPanel newsPanel;
+    private JPanel linkPanel;
+    private JScrollBar scrollBar1;
+    private JButton addButton;
+    private JButton removeButton;
+    private JList listLink;
 
-    public MainFrame
-
-    {
-    }
-
-    {
+    public MainFrame() {
         this.add(rootPanel);
         this.setTitle("RSS Reader");
-        this.setBounds(150, 100, 400, 600);
+        this.setBounds(150, 100, 600, 800);
+        this.setMinimumSize(new Dimension(600, 800));
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
