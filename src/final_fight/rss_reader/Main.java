@@ -9,7 +9,6 @@ public class Main {
         UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
         MainFrame myMainFrame = new MainFrame();
         myMainFrame.setVisible(true);
-
-
     }
 }
+
