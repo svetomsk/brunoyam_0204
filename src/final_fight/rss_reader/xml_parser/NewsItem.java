@@ -8,6 +8,9 @@ public class NewsItem {
     private String link;
     private LocalDateTime pubDate;
 
+    public NewsItem() {
+    }
+
     public NewsItem(String title, String description, String link, LocalDateTime pubDate) {
         this.title = title;
         this.description = description;

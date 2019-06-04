@@ -10,4 +10,6 @@ public interface IController {
     void refreshNews(String lastChanel);
 
     void openOriginSource(String title);
+
+    void start();
 }

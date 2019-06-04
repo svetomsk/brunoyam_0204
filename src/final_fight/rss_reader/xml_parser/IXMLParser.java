@@ -8,15 +8,15 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 import javax.xml.stream.events.XMLEvent;
-import java.io.IOException;
-import java.io.StringReader;
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.stream.Collectors;
 
 
-public interface IXMLParser {
+public class IXMLParser {
 
     public static LocalDateTime stringToLocalDateTime(String time) {
         LocalDateTime localDateTime = LocalDateTime.parse(time);
@@ -24,7 +24,14 @@ public interface IXMLParser {
     }
 
     // строку -> в файл XML
-    public default ArrayList<NewsItem> parseMXL(String xmlString) {
+    public static ArrayList<NewsItem> parseMXL(String xmlString) {
+        try {
+            PrintWriter writer = new PrintWriter(new File("file.xml"));
+            writer.print(xmlString);
+            writer.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
         ArrayList<NewsItem> outputDatas = new ArrayList<>();
 
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -41,26 +48,43 @@ public interface IXMLParser {
         try (StaxStreamProcessor processor = new StaxStreamProcessor((Files.newInputStream(Paths.get("file.xml"))))) {
             XMLStreamReader reader = processor.getReader();
 
+
+            boolean isItem = false;
             while (reader.hasNext()) {       // while not end of XML
                 int event = reader.next();   // read next event
-                NewsItem newsItem = new NewsItem();
                 if (event == XMLEvent.START_ELEMENT &&
-                        "title".equals(reader.getLocalName())) {
-                    newsItem.setTitle(reader.getElementText());
+                        "item".equals(reader.getLocalName())) {
+                    isItem = true;
                 }
-                if (event == XMLEvent.START_ELEMENT &&
-                        "description".equals(reader.getLocalName())) {
-                    newsItem.setDescription(reader.getElementText());
+                if (event == XMLEvent.END_ELEMENT &&
+                        "/item".equals(reader.getLocalName())) {
+                    isItem = false;
                 }
-                if (event == XMLEvent.START_ELEMENT &&
-                        "link".equals(reader.getLocalName())) {
-                    newsItem.setLink(reader.getElementText());
+                if (isItem) {
+                    NewsItem newsItem = new NewsItem();
+                    if (event == XMLEvent.START_ELEMENT &&
+                            "title".equals(reader.getLocalName())) {
+                        newsItem.setTitle(reader.getElementText());
+                    }
+                    if (event == XMLEvent.START_ELEMENT &&
+                            "description".equals(reader.getLocalName())) {
+                        newsItem.setDescription(reader.getElementText());
+                    }
+                    if (event == XMLEvent.START_ELEMENT &&
+                            "link".equals(reader.getLocalName())) {
+                        newsItem.setLink(reader.getElementText());
+                    }
+                    if (event == XMLEvent.START_ELEMENT &&
+                            "pubDate".equals(reader.getLocalName())) {
+                        newsItem.setPubDate(LocalDateTime.now());
+                    }
+                    newsItem.setPubDate(LocalDateTime.now());
+                    newsItem.setDescription("");
+                    newsItem.setLink("");
+                    // TODO: fix elements filter
+                    outputDatas.add(newsItem);
                 }
-                if (event == XMLEvent.START_ELEMENT &&
-                        "pubDate".equals(reader.getLocalName())) {
-                    newsItem.setPubDate(stringToLocalDateTime(reader.getElementText()));
-                }
-                outputDatas.add(newsItem);
+
             }
         } catch (XMLStreamException e) {
             e.printStackTrace();
@@ -68,8 +92,10 @@ public interface IXMLParser {
             e.printStackTrace();
         }
 
-
-        return outputDatas;
+        ArrayList<NewsItem> filters = (ArrayList<NewsItem>) outputDatas.stream()
+                .filter(x -> x.getTitle() != null)
+                .collect(Collectors.toList());
+        return filters;
     }
 
 }

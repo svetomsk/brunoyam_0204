@@ -48,7 +48,7 @@ public class DatabaseHelper implements IDatabaseHelper {
 
     @Override
     public void init() {
-        String url = "jdbc:sqlite:C:/Users/Stud2/Desktop/db/database.db";
+        String url = "jdbc:sqlite:Z:\\Общая преподавателей\\Милых Светозар\\brunoyam_0204\\src\\final_fight\\rss_reader\\db\\database.db";
         try {
             connection = DriverManager.getConnection(url);
             System.out.println("Соединение установлено.");

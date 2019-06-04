@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25021e05-3cfa-431f-83a6-67b14a5ab11e" name="Default Changelist" comment="merge changes once again">
+    <list default="true" id="25021e05-3cfa-431f-83a6-67b14a5ab11e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/final_fight/rss_reader/network/NetworkHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_fight/rss_reader/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_fight/rss_reader/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_fight/rss_reader/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_fight/rss_reader/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_fight/rss_reader/controller/IController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_fight/rss_reader/controller/IController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_fight/rss_reader/db/DatabaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_fight/rss_reader/db/DatabaseHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_fight/rss_reader/db/IDatabaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_fight/rss_reader/db/IDatabaseHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_fight/rss_reader/network/INetworkHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_fight/rss_reader/network/INetworkHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/final_fight/rss_reader/view/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_fight/rss_reader/view/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_fight/rss_reader/xml_parser/IXMLParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_fight/rss_reader/xml_parser/IXMLParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/final_fight/rss_reader/xml_parser/NewsItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/final_fight/rss_reader/xml_parser/NewsItem.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,14 +61,26 @@
     <session id="-934264567">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7" />
-          <entry key="txt" value="25" />
+          <entry key="java" value="1259" />
+          <entry key="txt" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="JAVA" value="1259" />
+          <entry key="PLAIN_TEXT" value="45" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="db" value="1" />
+          <entry key="java" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
           <entry key="JAVA" value="7" />
-          <entry key="PLAIN_TEXT" value="25" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -71,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/network/INetworkHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="144">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/view/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="838">
-              <caret line="118" column="1" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
+            <state relative-caret-position="439">
+              <caret line="83" column="11" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2086#2087#0" expanded="true" />
@@ -97,8 +119,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/db/DatabaseHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="188">
+              <caret line="137" selection-start-line="137" selection-end-line="137" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/db/IDatabaseHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,16 +150,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/view/MainFrame.form">
-          <provider selected="true" editor-type-id="ui-designer" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/controller/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="252">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,8 +177,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/xml_parser/IXMLParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="421">
+              <caret line="85" column="39" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/db/database.db">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-281">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -155,6 +205,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>equals(</find>
+      <find>setVis</find>
+      <find>Василий Уткин – о том, почему надо смотреть МЛС</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -197,25 +249,26 @@
         <option value="$PROJECT_DIR$/src/network/InputThread.java" />
         <option value="$PROJECT_DIR$/src/network/ServerSide.java" />
         <option value="$PROJECT_DIR$/src/DatabaseTest.java" />
-        <option value="$PROJECT_DIR$/src/final_fight/rss_reader/network/NetworkHelper.java" />
         <option value="$PROJECT_DIR$/src/final_fight/rss_reader/xml_parser/XMLParser.java" />
-        <option value="$PROJECT_DIR$/src/final_fight/rss_reader/db/DatabaseHelper.java" />
-        <option value="$PROJECT_DIR$/src/final_fight/rss_reader/db/IDatabaseHelper.java" />
-        <option value="$PROJECT_DIR$/src/final_fight/rss_reader/controller/Controller.java" />
-        <option value="$PROJECT_DIR$/src/final_fight/rss_reader/network/INetworkHelper.java" />
-        <option value="$PROJECT_DIR$/src/final_fight/rss_reader/xml_parser/NewsItem.java" />
         <option value="$PROJECT_DIR$/src/final_fight/rss_reader/xml_parser/Main.java" />
         <option value="$PROJECT_DIR$/src/final_fight/rss_reader/xml_parser/StaxStreamProcessor.java" />
+        <option value="$PROJECT_DIR$/src/final_fight/rss_reader/controller/IController.java" />
+        <option value="$PROJECT_DIR$/src/final_fight/rss_reader/Main.java" />
+        <option value="$PROJECT_DIR$/src/final_fight/rss_reader/network/INetworkHelper.java" />
+        <option value="$PROJECT_DIR$/src/final_fight/rss_reader/network/NetworkHelper.java" />
+        <option value="$PROJECT_DIR$/src/final_fight/rss_reader/xml_parser/NewsItem.java" />
+        <option value="$PROJECT_DIR$/src/final_fight/rss_reader/db/DatabaseHelper.java" />
+        <option value="$PROJECT_DIR$/src/final_fight/rss_reader/db/IDatabaseHelper.java" />
         <option value="$PROJECT_DIR$/src/final_fight/rss_reader/xml_parser/IXMLParser.java" />
         <option value="$PROJECT_DIR$/src/final_fight/rss_reader/view/MainFrame.java" />
+        <option value="$PROJECT_DIR$/src/final_fight/rss_reader/controller/Controller.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="162" />
-    <option name="y" value="347" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="x" value="22" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -302,6 +355,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="final_fight" type="462c0819:PsiDirectoryNode" />
               <item name="rss_reader" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="brunoyam_0204" type="b2602c69:ProjectViewProjectNode" />
+              <item name="brunoyam_0204" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="final_fight" type="462c0819:PsiDirectoryNode" />
+              <item name="rss_reader" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -341,7 +402,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559667884250" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559673977038" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -474,7 +535,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.INetworkHelper">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ClientSide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="network.ClientSide" />
       <module name="hello_java" />
@@ -484,13 +545,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConcurrencyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConcurrencyExample" />
-      <module name="hello_java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -515,6 +569,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="final_fight.rss_reader.Main" />
+      <module name="hello_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="final_fight.rss_reader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServerSide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="network.ServerSide" />
       <module name="hello_java" />
@@ -529,19 +596,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConcurrencyExample" />
       <item itemvalue="Application.ServerSide" />
       <item itemvalue="Application.ClientSide" />
       <item itemvalue="Application.DatabaseTest" />
       <item itemvalue="Application.INetworkHelper" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.INetworkHelper" />
         <item itemvalue="Application.DatabaseTest" />
         <item itemvalue="Application.ClientSide" />
         <item itemvalue="Application.ServerSide" />
-        <item itemvalue="Application.ConcurrencyExample" />
       </list>
     </recent_temporary>
   </component>
@@ -634,7 +701,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559670481489</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="merged frame branch">
+      <created>1559671705340</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1559671705340</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -665,7 +739,7 @@
       <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3360161" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.335141" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -673,7 +747,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3279678" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3275488" />
       <window_info anchor="bottom" id="DB Execution Console" order="11" />
       <window_info anchor="bottom" id="Console" order="12" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
@@ -743,13 +817,13 @@
     <MESSAGE value="Парсер. Что-то..." />
     <MESSAGE value="merge changes" />
     <MESSAGE value="merge changes once again" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge changes once again" />
+    <MESSAGE value="merged frame branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="merged frame branch" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/OperationsExample.java" />
     <entry file="file://$PROJECT_DIR$/src/StringsExample.java" />
     <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/StringLatin1.java" />
@@ -785,9 +859,6 @@
     <entry file="file://$PROJECT_DIR$/src/final_fight.java" />
     <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/A.java" />
     <entry file="file://$PROJECT_DIR$/database.db" />
-    <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/db/IDatabaseHelper.java" />
-    <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/controller/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/controller/IController.java" />
     <entry file="file://$PROJECT_DIR$/src/DatabaseTest.java" />
     <entry file="file://$PROJECT_DIR$/src/Robott.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -803,10 +874,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/xml_parser/StaxStreamProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/controller/IController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/view/MainFrame.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/network/NetworkHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/network/INetworkHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="144">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -815,33 +926,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/xml_parser/NewsItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="72">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/xml_parser/StaxStreamProcessor.java">
+    <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/db/IDatabaseHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="421">
+          <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/xml_parser/IXMLParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="421">
+          <caret line="85" column="39" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/db/database.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-281">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/db/DatabaseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/view/MainFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="118" column="1" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
+        <state relative-caret-position="439">
+          <caret line="83" column="11" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2086#2087#0" expanded="true" />
             <element signature="e#2158#2159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/final_fight/rss_reader/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

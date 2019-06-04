@@ -21,4 +21,6 @@ public interface IDatabaseHelper {
     void eraseChanel(String chanel);
 
     LocalDateTime getLastUpdateTime(String chanel);
+
+    void addNewsByChannel(List<NewsItem> items, String channel);
 }
