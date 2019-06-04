@@ -160,25 +160,25 @@ public class DatabaseHelper implements IDatabaseHelper {
 
     @Override
     public void eraseNews(String chanel) {
-            try {
-                int channelId = getChannelId(chanel);
-                preparedStatement = connection.prepareStatement(SQL_DELETE_NEWS);
-                preparedStatement.setInt(1, channelId);
-                preparedStatement.executeUpdate();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
+        try {
+            int channelId = getChannelId(chanel);
+            preparedStatement = connection.prepareStatement(SQL_DELETE_NEWS);
+            preparedStatement.setInt(1, channelId);
+            preparedStatement.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override
     public void eraseChanel(String chanel) {
-            try {
-                preparedStatement = connection.prepareStatement(SQL_DELETE_CHANNEL);
-                preparedStatement.setString(1, chanel);
-                preparedStatement.executeUpdate();
-            }catch (SQLException e) {
-                e.printStackTrace();
-            }
+        try {
+            preparedStatement = connection.prepareStatement(SQL_DELETE_CHANNEL);
+            preparedStatement.setString(1, chanel);
+            preparedStatement.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override
