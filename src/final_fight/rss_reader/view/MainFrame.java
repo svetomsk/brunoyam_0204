@@ -92,7 +92,6 @@ class StuckController implements IController {
     @Override
     public void updateNews(String chanel) {
         System.out.println("called updated news");
-
     }
 
     @Override
