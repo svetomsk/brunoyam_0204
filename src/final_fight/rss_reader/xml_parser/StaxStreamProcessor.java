@@ -3,19 +3,21 @@ package final_fight.rss_reader.xml_parser;
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
+import java.io.InputStream;
 
 public class StaxStreamProcessor implements AutoCloseable {
     private static final XMLInputFactory FACTORY = XMLInputFactory.newInstance();
 
     private final XMLStreamReader reader;
 
-    public StaxStreamProcessor(String is) throws XMLStreamException {
-        reader = FACTORY.createXMLStreamReader(is);
+    public StaxStreamProcessor(InputStream is) throws XMLStreamException {
+        reader = (XMLStreamReader) FACTORY.createXMLStreamReader(is);
     }
 
     public XMLStreamReader getReader() {
         return reader;
     }
+
 
     @Override
     public void close() {
