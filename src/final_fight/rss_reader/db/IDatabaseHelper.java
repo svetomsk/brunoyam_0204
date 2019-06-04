@@ -2,6 +2,7 @@ package final_fight.rss_reader.db;
 
 import final_fight.rss_reader.xml_parser.NewsItem;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 public interface IDatabaseHelper {
@@ -19,5 +20,5 @@ public interface IDatabaseHelper {
 
     void eraseChanel(String chanel);
 
-    void getLastUpdateTime(String chanel);
+    LocalDateTime getLastUpdateTime(String chanel);
 }
