@@ -17,7 +17,7 @@ public class ArraysExample {
 //        System.out.println(value);
 
         int [] temperature = new int[365];
-        // generate data
+        // generate dat a
         for(int i = 0; i < temperature.length; i++) {
             temperature[i] = r.nextInt(40);
         }
