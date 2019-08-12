@@ -52,6 +52,8 @@ public class View extends JFrame {
                     text = "_";
                 } else if(currentCell == Field.CRASHED_SHIP) {
                     text = "#";
+                } else if(currentCell == Field.SHIP) {
+                    text = "%";
                 }
 
                 JLabel label = new JLabel(text);
