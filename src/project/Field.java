@@ -17,22 +17,22 @@ public class Field implements IField {
     }
 
     public Field(List<Ship> ships) {
-
+        data = new int[10][10];
     }
 
     @Override
     public void setValue(int x, int y, int value) {
-
+        data[x][y] = value;
     }
 
     @Override
     public int getValue(int x, int y) {
-        return 0;
+        return data[x][y];
     }
 
     @Override
     public int size() {
-        return 0;
+        return 10;
     }
 
     @Override

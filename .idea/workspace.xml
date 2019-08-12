@@ -2,49 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3e5b1f2-9d3c-43d9-9480-47e29da57a87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CollectionsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DatabaseExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RecursionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crossses_zeros/ComputerPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/expression/AbstractBinaryOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/expression/Const.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/expression/Div.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/expression/Expression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/expression/InterfaceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/expression/Minus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/expression/Mul.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/expression/Plus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/expression/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/expression/Var.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/JCanvas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/MainFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/TestForm.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/TestForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/UIExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miner/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miner/Field.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miner/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miner/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithreading/LambdaFunctions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithreading/MatrixMult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithreading/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithreading/ThreadsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/AcceptingThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/ClientSide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/ConsoleOutputThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/InputThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/ServerSide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/Field.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/IField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/Ship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello_java.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/hello_java/AnswersCycles.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/hello_java/ArraysExample.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/hello_java/CyclesExample.class" beforeDir="false" />
@@ -52,7 +12,9 @@
       <change beforePath="$PROJECT_DIR$/out/production/hello_java/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/hello_java/OperationsExample.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/hello_java/StringsExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraysExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Field.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/View.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,23 +33,77 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="3" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="3" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1116" />
+          <entry key="txt" value="44" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1116" />
+          <entry key="PLAIN_TEXT" value="44" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/project/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="154">
+              <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/project/View.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2052#2053#0" expanded="true" />
+                <element signature="e#2096#2097#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project/Field.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="696">
+              <caret line="34" column="17" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="17" />
+              <folding>
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#666#667#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -97,8 +113,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/input.txt" />
+        <option value="$PROJECT_DIR$/src/project/Main.java" />
+        <option value="$PROJECT_DIR$/src/project/Field.java" />
+        <option value="$PROJECT_DIR$/src/project/View.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -135,7 +161,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565626436892" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565629208972" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -180,6 +206,14 @@
       <option name="presentableId" value="Default" />
       <updated>1565626224993</updated>
     </task>
+    <task id="LOCAL-00001" summary="last changes">
+      <created>1565626520614</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565626520614</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -196,10 +230,10 @@
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -217,11 +251,49 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="last changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="last changes" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/project/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="154">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2052#2053#0" expanded="true" />
+            <element signature="e#2096#2097#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
